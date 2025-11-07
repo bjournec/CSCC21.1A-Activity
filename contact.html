@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Collaborative Website – Contact Us</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html"><strong>Contact</strong></a>
+  </nav>
+
+  <main>
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! You can reach our team through the form below or via email.</p>
+
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <section>
+      <h2>Our Info</h2>
+      <p>Email: <a href="mailto:team@example.com">team@example.com</a></p>
+      <p>Address: 123 Collaboration Lane, GitHub City</p>
+    </section>
+  </main>
+
+  <footer>© <span id="y"></span> Our Team</footer>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
