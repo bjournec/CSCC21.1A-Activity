@@ -1,0 +1,4 @@
+body { font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 40px auto; max-width: 900px; padding: 0 16px; }
+nav a { margin-right: 12px; text-decoration: none; }
+main { margin-top: 24px; }
+footer { margin-top: 48px; font-size: 0.9em; opacity: 0.8; }
